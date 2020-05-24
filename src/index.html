@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hello World</title>
+
+	<!--	Bootstrap 4 CSS. Why? I just wanna make my demo beautiful-->
+	<link rel="stylesheet"
+		  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	>
+
+	<!--	These two lines are React js library.-->
+	<!--	You can put these line on any existing web page that you have. And start playing with React-->
+	<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+	<!--	We have written with React.createElement which is pretty painful. But that the way browser can understand js code.-->
+	<!--	Now we try new way with JSX, simple and we need BABEL.js help us comiple jsx to js (or to React.createElement).-->
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+
+<!--React is single page. just one div with the id. And only one html file: index.html -->
+<div id="root"></div>
+
+<!--You have knowledge with basic js. This file can help you understand React. -->
+<!--<script src="myFirstReact.js"></script>-->
+
+
+<!--We use babel to help us compile JSX to js. Here is jsx.-->
+<script type="text/babel" src="myJSX.jsx"></script>
+</body>
+</html>
